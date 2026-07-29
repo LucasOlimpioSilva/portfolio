@@ -84,5 +84,5 @@ Em breve...
 
 ## 📬 Contato
 
-- LinkedIn: *[(Adicionar link)](https://www.linkedin.com/in/lucas-olimpio/)*
+- LinkedIn: *[Lucas Olimpio](https://www.linkedin.com/in/lucas-olimpio/)*
 - Email: *lucasolimpio267@gmail.com*
