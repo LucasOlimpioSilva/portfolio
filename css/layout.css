@@ -9,7 +9,7 @@ body{
     max-width: 1800px;
     width: 100%;
     height: 100vh;
-    margin: 0 0 auto auto;
+    margin: 0 auto 0 auto;
     padding: 0 var(--space-md);
     display: grid;
     grid-template-columns: 35% 65%;
@@ -25,4 +25,11 @@ body{
 .projects{
     height: 100vh;
     overflow-y: auto;
+    padding: var(--space-sm) var(--space-md) 0 0;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.projects::-webkit-scrollbar {
+    display: none;
 }

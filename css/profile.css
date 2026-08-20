@@ -1,12 +1,12 @@
+.profile-info{
+    margin-top: var(--space-md);
+}
+
 .profile img{
     width: 50%;
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
-}
-
-.profile-info{
-    margin-top: var(--space-md);
 }
 
 .profile-name{
