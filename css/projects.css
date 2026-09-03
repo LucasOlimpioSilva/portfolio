@@ -73,19 +73,19 @@
 }
 
 .project-skills > *:nth-child(1) {
-    background-color: var(--tech-html);
+    background-color: var(--tech-1);
 }
 
 .project-skills > *:nth-child(2) {
-    background-color: var(--tech-css);
+    background-color: var(--tech-2);
 }
 
 .project-skills > *:nth-child(3) {
-    background-color: var(--tech-js);
+    background-color: var(--tech-3);
 }
 
 .project-skills > *:nth-child(4) {
-    background-color: var(--tech-bootstrap);
+    background-color: var(--tech-4);
 }
 
 .scroll-indicator{
