@@ -1,0 +1,33 @@
+@media (max-width: 1490px) {
+    
+    .skills ul li{
+        padding: var(--space-xs) var(--space-sm);
+    }
+}
+
+@media (max-width: 1300px) {
+    .container{
+        grid-template-columns: 30% 70%;
+    }
+
+    .profile-name {
+        width: 90%;
+    }
+
+    .profile-description{
+        width: 90%;
+    }
+
+    .skills ul{
+        width: 90%;
+        gap: var(--space-md) var(--space-xs)
+    }
+
+    .desktop-preview {
+        width:70%;
+    }
+}
+
+@media (max-width: 1080px) {
+    
+}

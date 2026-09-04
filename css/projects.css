@@ -8,6 +8,16 @@
     display: inline-block;
 }
 
+.projects {
+    position: relative;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.project {
+    min-height: 100vh;
+}
+
 .project-name{
     color: var(--text-primary);
     margin-top: var(--space-md);
@@ -89,7 +99,10 @@
 }
 
 .scroll-indicator{
-    margin-top: var(--space-xl);
-    padding-bottom: var(--space-md);
+    position: absolute;
+    bottom: var(--space-md);
+    left: 90px;
+    transform: translateX(-50%);
+    margin: 0;
+    z-index: 10;
 }
-
