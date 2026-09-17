@@ -30,4 +30,59 @@
 
 @media (max-width: 1080px) {
     
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0 var(--space-sm);
+    }
+
+    .profile,
+    .projects {
+        width: 100%;
+        height: auto;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        padding: var(--space-lg) 0;
+    }
+
+    .profile-image{
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile img{
+        width: 40%;
+        height: 40%;
+    }
+
+    .profile-description,
+    .cv {
+        width: 100%;
+        justify-content: center;
+        margin-top:var(space-lg)
+    }
+
+    .profile-description,
+    .skills,
+    .cv,
+    .socials {
+        margin-top: var(--space-lg);
+    }
+
+    .skills ul {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .skills ul li {
+        padding: var(--space-xs) var(--space-lg);
+    }
 }
