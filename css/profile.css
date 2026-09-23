@@ -2,7 +2,7 @@
     margin-top: var(--space-md);
 }
 
-.profile img{
+.profile-img{
     width: 50%;
     height: 100%;
     object-fit: cover;
@@ -20,7 +20,10 @@
     margin: 0;
 }
 
-.profile-description{
+.mobile-profile-description-1,
+.mobile-profile-description-2,
+.mobile-profile-description-3,
+.desktop-profile-description{
     margin-top: var(--space-md);
     font-size: var(--fs-body);
     font-weight: bold;
@@ -29,6 +32,7 @@
     text-align: justify;
     width: 75%;
 }
+
 
 .skills{
     margin-top: var(--space-md);
@@ -50,6 +54,12 @@
     border-radius: var(--radius-sm);
     font-size: var(--fs-small);
 }
+
+    .about,
+    .skills-title{
+        margin-top: 60px;
+        font-size: var(--fs-subtitle);
+    }
 
 .cv{
     display: flex;
@@ -73,4 +83,8 @@
     display: flex;
     gap: var(--space-md);
     margin-top: 100px;
+}
+
+.hidden {
+    display: none;
 }
