@@ -142,78 +142,6 @@
     }
 
     /* Projects section */
-    /*
-    .projects {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 90px;   
-        padding: 0;   
-    }
-
-    .project {
-        width: 100%;
-        min-height: auto;
-        margin-bottom: var(--space-xl);
-    }
-
-     .section-tag{
-        text-align: center;
-        width: 80%;
-        background-color: var(--bg-tertiary);
-        color: var(--text-primary); 
-    }
-
-    #projects-container {
-        margin-top: var(--space-md);
-    }
-
-    .project {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .project-gallery {
-        width: 100%;
-        height: auto;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .desktop-preview {
-        display: none;
-    }
-
-    .mobile-preview {
-        margin-top: var(--space-sm);
-        height: 70%;
-    }
-
-    .project-links {
-        margin-top: var(--space-lg);
-    }
-
-    .project-description {
-        margin-top: var(--space-xl);
-        width: 90%;
-        text-align: justify;
-        color: var(--text-secondary);
-    }
-
-    .technologies {
-        margin-top: var(--space-xl);
-    }
-
-    .project-skills {
-        margin-top: var(--space-lg);
-    }
-
-    .scroll-indicator {
-        display: none;
-    }
-        */
-
     
     .projects {
         margin-top: var(--space-xl);
@@ -223,7 +151,7 @@
 
     .project{
         min-height: auto;
-        margin: 40px 0 90px 0;
+        margin: 40px 0 70px 0;
     }
 
     .technologies,
@@ -258,13 +186,15 @@
         height: auto;
     }
 
-    .project-mobile-name{
+    .project-mobile-name,
+    .project-mobile-expanded-name{
         display: block;
         font-size: var(--fs-subtitle);
         font-weight: bold;
     }
 
-    .project-mobile-description {
+    .project-mobile-description,
+    .expanded-project-description {
         display: block;
         margin-top: var(--space-md);
         font-size: var(--fs-body);
@@ -279,7 +209,8 @@
         margin-top: var(--space-md);
     }
 
-    .project-mobile-btn {
+    .project-mobile-expand-btn,
+    .project-mobile-close-btn {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -288,6 +219,25 @@
         font-size: var(--fs-body);
         font-weight: bold;
         text-decoration: underline;
+        text-underline-offset: 6px;
+    }
+
+    .project-mobile-expanded-name {
+        text-align: center;
+    }
+
+    .expanded-project-gallery {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .expanded {
+        display: block;
+    }
+
+    .closed {
+        display: none;
     }
     
 }
